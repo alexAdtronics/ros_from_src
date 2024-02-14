@@ -33,14 +33,13 @@ git clone https://github.com/ros/message_runtime
 git clone https://github.com/ros-o/pluginlib
 git clone https://github.com/ros/ros
 
-ROSCONSOLE1=${ROSCONSOLE:-https://github.com/ros-o/rosconsole}
-git clone $ROSCONSOLE1
+git clone https://github.com/dreuter/rosconsole.git --branch noetic-jammy
 
 # pure python
 cd $SRC
 git clone https://github.com/ros-infrastructure/catkin_pkg
 git clone https://github.com/osrf/osrf_pycommon
-git clone https://github.com/catkin/catkin_tools
+git clone https://github.com/catkin/catkin_tools --branch 0.9.2
 
 # cmake installs
 git clone https://github.com/ros-o/ros_environment
